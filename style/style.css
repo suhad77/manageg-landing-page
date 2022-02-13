@@ -131,7 +131,7 @@ ul li a{
 }
 .testimonial{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 .testimonial h2{
@@ -155,7 +155,7 @@ ul li a{
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -65%);
 }
 .testimonial-button{
     display: flex;
@@ -190,7 +190,7 @@ ul li a{
 .footer{
     background-color: #1E1E26;
     padding: 65px 0;
-    width: 100%;
+    max-width: 100%;
 }
 .footer-logo-and-social-media {
     display: flex;
