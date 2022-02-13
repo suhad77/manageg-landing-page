@@ -84,7 +84,8 @@ ul li a{
 .hero-right{
     width: 50%;
 }
-.hero-right{
+.hero-right {
+    text-align: end;
 }
 .hero-left h1{
     font-size: 66px;
@@ -196,6 +197,10 @@ ul li a{
     display: flex;
     flex-direction: column;
     justify-content: inherit;
+}
+.footer-logo-and-social-media img{
+    color: white;
+    filter: brightness(14);
 }
 .social-media-icon a i{
     font-size: 20px;
